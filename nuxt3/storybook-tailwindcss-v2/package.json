@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs",
+    "storybook": "start-storybook -p 6006 -s ./public,./assets",
+    "allupdate": "yarn upgrade-interactive --latest"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "6.4.18",
+    "@storybook/addon-postcss": "2.0.0",
+    "@storybook/vue3": "6.4.18",
+    "autoprefixer": "10.4.2",
+    "nuxt3": "3.0.0-27398533.8edd481",
+    "postcss": "8.4.6",
+    "storybook-builder-vite": "0.1.15",
+    "tailwindcss": "3.0.18"
+  }
+}
